@@ -33,7 +33,14 @@ const SingalPage = () => {
             <p><strong style={{color:'#f2d4bc'}} className='fs-5 pe-2'>Date:</strong> {book.date}</p>
             <p><strong style={{color:'#f2d4bc'}} className='fs-5 pe-2'>Price:</strong> ${book.price}</p>
             <p><strong style={{color:'#f2d4bc'}} className='fs-5 pe-2'>Pages:</strong> {book.page}</p>
-            <p><strong style={{color:'#f2d4bc'}} className='fs-5 pe-2'>Description:</strong> {book.description}</p>
+            <p   style={{
+              color: '#f2d4bc', 
+              fontSize: '1.1rem',
+              lineHeight: '1.6',
+              whiteSpace: 'normal',
+              wordWrap: 'break-word',
+              wordBreak: 'break-word'
+            }} ><strong style={{color:'#f2d4bc'}} className='fs-5 pe-2'>Description:</strong> {book.description}</p>
           </div>
           </Container>
         ) : (
